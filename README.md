@@ -4,31 +4,80 @@ Reach the 4 Ninjanimals and learn how to reach the golden dragon high in the ski
 
 ## Rules
 
-* Turn timer
-  * You have 120 seconds per turn
-  * Beginning turns are done at the same time until there is interaction between players (other player is visible)
+### Start of the game
 
-### Start of game
+Each player will be given a clan at random and starts at clan's base land with 2 workers.
 
-* Choose your starter
-  * Might be randomly
+Resource Starter Pack:
+* 3 wood
+* 3 stone
+* 3 horns
+* 3 wool
+* 10 food
 
-### During game
+The player might get extra workers, soldiers or resources to start with depending on what clan they got.
 
-* possible actions
-  * move workers / army
-  * harvest resources(?)
-  * build buildings
-  * research
-  
-Either move or harvest, not both in 1 turn
-Either build or research, not both in 1 turn
+### Turn Composition
+
+There are 4 different turn compositions, move, harvest, build or trade. all steps are optional for each of these compositions.
+
+#### Move Composition
+1. Move
+2. Battle (mandatory if needed)
+3. Training
+4. Research
+
+#### Harvest Composition
+1. Harvest
+2. Training
+3. Research
+
+#### Build Composition
+1. Build
+2. Training
+3. Research
+
+#### Trade Composition
+1. Training
+2. Research
+3. Trade
+
+### Moving your animals
+
+Moving animals happens in groups, wether it'd be workers or soldiers. a worker group consists out of 3 or fewer workers. a soldier group consists out of 10 or fewer soldiers.
+
+Workers always have a speed of 1, except when you are from the Rabbit Clan and your workers are rabbits, they have a speed of 2. If a group consists of 2 rabbits and a cow, the speed of the cow is used.
+
+Soldier groups move with the average speed (rounded down) of the group.
+
+Carts can be used to move a group of soldiers and up to 3 groups of workers together when all of these groups start from the same tile. a worker group can't be picked up along the way. The move depends on the speed of the soldiers. This counts as a single move.
+
+Bridges can be built over the river that borders your beginning land. You can only use your own bridges to get to new lands.
+
+### Getting resources
+
+### Building a structure
+
+### Going to battle
+
+#### attacking the enemy
+
+#### Defending an attack
+
+#### End of battle
+
+### Turn timer
+You have 120 seconds per turn.
+
+Beginning turns are done at the same time until there is interaction between players (other player is visible)
 
 ### End game
 
 ## Pure breed animals
 
-### Starter animals
+### Clans
+
+// TODO: Make a section for each clan with their stats + bonusses
 
 animal | Health | attack | Defense | Speed | Magic | Boost | Produces
 ------ | ------ | ------ | ------- | ----- | ----- | ----- | -------- 
@@ -40,17 +89,19 @@ Chicken | 2 | 3 | 1 | 3 | 3 | Production | Eggs, Feathers
 Rabbit | 2 | 2 | 2 | 4 | 3 | Speed | Shitballs(?)
 
 * Cow
-  * Starts with ?
+  * Starts with extra resources(?)
 * Sheep
-  * Starts with ?
+  * Start with +2 workers
 * Goat
   * Starts with 2(?) extra Soldiers
 * Pig
   * Starts with Summon Rune Unlocked (or mana well built?)
 * Chicken
-  * Starts with ?
+  * Workers can move across rivers
 * Rabbit
-  * Starts with a catapult
+  * Can move 3 groups
+  * Workers have +1 speed
+  * Starts with a catapult(?)
 
 ### Soldiers
 
@@ -87,7 +138,9 @@ Rabbit | 2 | 2 | 2 | 4 | 3 | Speed | Shitballs(?)
 ## Resources
 
 +: enough use
+
 -: limited use
+
 /: no use
 
 * Harvested resources
@@ -190,7 +243,3 @@ Rabbit | 2 | 2 | 2 | 4 | 3 | Speed | Shitballs(?)
 ### GMO Factory
 
 // TODO: add costs & stats for each GMO upgradable animal
-
-## Goal
-
-
